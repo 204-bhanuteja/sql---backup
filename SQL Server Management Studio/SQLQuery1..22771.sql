@@ -65,10 +65,10 @@ end
 
 
 declare @name varchar(40)
-set @name='Sheela'
+set @name='Bhanu'
 select upper(@name) as name
 
-select lower('SHEELA') as name
+select lower('BHANU') as name
 
 select ename, lower(ename) lowername from emp
 
